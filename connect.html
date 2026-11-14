@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KageBytes — Connection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Kage<span>Bytes</span></a>
+      <div class="menu">
+        <button id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span class="bars"></span></button>
+        <div id="menu-list" hidden>
+          <a href="index.html">About us</a>
+          <a href="members.html">Our members</a>
+          <a href="connect.html" class="active">Connection</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Connection</h1>
+      <p>Want to talk, collaborate or join us? Reach out anywhere below.</p>
+
+      <!-- Replace each href and value with your real details. Delete any line you don't need. -->
+      <ul class="contacts">
+        <li><a href="mailto:hello@example.com"><span class="label">Mail</span><span class="value">hello@example.com ↗</span></a></li>
+        <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noopener"><span class="label">Instagram</span><span class="value">@yourhandle ↗</span></a></li>
+        <li><a href="https://x.com/yourhandle" target="_blank" rel="noopener"><span class="label">X</span><span class="value">@yourhandle ↗</span></a></li>
+        <li><a href="https://github.com/yourorg" target="_blank" rel="noopener"><span class="label">GitHub</span><span class="value">yourorg ↗</span></a></li>
+        <li><a href="https://discord.gg/yourinvite" target="_blank" rel="noopener"><span class="label">Discord</span><span class="value">Join the server ↗</span></a></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year">2026</span> KageBytes</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
