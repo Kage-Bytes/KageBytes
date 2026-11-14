@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KageBytes — About us</title>
+  <meta name="description" content="KageBytes is a small cybersecurity-focused IT community.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Kage<span>Bytes</span></a>
+      <div class="menu">
+        <button id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span class="bars"></span></button>
+        <div id="menu-list" hidden>
+          <a href="index.html" class="active">About us</a>
+          <a href="members.html">Our members</a>
+          <a href="connect.html">Connection</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>We work in the shadows,<br>so your systems don't have to.</h1>
+      <p class="lead">KageBytes is a small IT collective focused on cybersecurity.</p>
+      <p>
+        <!-- Replace this paragraph with your own story. -->
+        We are a group of builders, tinkerers and breakers who learn by doing.
+        We study how systems fail so we can help make them stronger, and we keep
+        things quiet, practical and honest.
+      </p>
+
+      <h2>What we do</h2>
+      <ul class="list">
+        <li><b>Security research</b> — learning how things break, responsibly.</li>
+        <li><b>Building tools</b> — small, useful projects shared with the community.</li>
+        <li><b>Learning together</b> — sharing notes, writeups and ideas.</li>
+      </ul>
+
+      <h2>Our values</h2>
+      <ul class="list">
+        <li><b>Minimal</b> — no noise, only what matters.</li>
+        <li><b>Curious</b> — always asking "what if?"</li>
+        <li><b>Ethical</b> — we protect, we don't harm.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year">2026</span> KageBytes</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
