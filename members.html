@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KageBytes — Our members</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Kage<span>Bytes</span></a>
+      <div class="menu">
+        <button id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span class="bars"></span></button>
+        <div id="menu-list" hidden>
+          <a href="index.html">About us</a>
+          <a href="members.html" class="active">Our members</a>
+          <a href="connect.html">Connection</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Our members</h1>
+      <p>The people behind KageBytes.</p>
+
+      <!--
+        HOW TO ADD A MEMBER:
+        1. Put the photo inside the "photos" folder (e.g. photos/alex.jpg).
+        2. Copy one whole <article class="card"> ... </article> block.
+        3. Paste it inside the section it belongs to: "Core members" or "Members".
+        4. Change the photo file name, name, role and links.
+        Square photos look best. If a photo file is missing, the initials show instead.
+      -->
+
+      <h2>Core members</h2>
+      <div class="grid">
+
+        <article class="card">
+          <div class="avatar">AB<img src="photos/member1.jpg" alt="" onerror="this.remove()"></div>
+          <h3>Member One</h3>
+          <div class="role">Founder</div>
+          <div class="links">
+            <a href="https://github.com/username" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Website ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="avatar">CD<img src="photos/member2.jpg" alt="" onerror="this.remove()"></div>
+          <h3>Member Two</h3>
+          <div class="role">Security Researcher</div>
+          <div class="links">
+            <a href="https://github.com/username" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Website ↗</a>
+          </div>
+        </article>
+
+      </div>
+
+      <h2>Members</h2>
+      <div class="grid">
+
+        <article class="card">
+          <div class="avatar">EF<img src="photos/member3.jpg" alt="" onerror="this.remove()"></div>
+          <h3>Member Three</h3>
+          <div class="role">Developer</div>
+          <div class="links">
+            <a href="https://github.com/username" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Website ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="avatar">GH<img src="photos/member4.jpg" alt="" onerror="this.remove()"></div>
+          <h3>Member Four</h3>
+          <div class="role">Learner</div>
+          <div class="links">
+            <a href="https://github.com/username" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Website ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year">2026</span> KageBytes</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
