@@ -258,3 +258,13 @@ footer .wrap { padding-top: 14px; padding-bottom: 14px; color: var(--muted); fon
 @media (max-width: 520px) {
   main { padding-top: 28px; }
 }
+
+/* ---------- banner ---------- */
+.banner-wrapper { margin-top: 32px; }
+.hero-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
