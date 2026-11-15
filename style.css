@@ -142,12 +142,12 @@ h2 {
   margin: 32px 0 10px;
 }
 
-p { color: var(--muted); max-width: 62ch; margin-bottom: 14px; }
+p { color: var(--muted); max-width: none; margin-bottom: 14px; }
 p strong { color: var(--text); font-weight: 600; }
 
 .lead { color: var(--text); font-size: 1rem; }
 
-.list { list-style: none; max-width: 62ch; }
+.list { list-style: none; max-width: none; }
 .list li {
   padding: 8px 0;
   border-bottom: 1px solid var(--border);
