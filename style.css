@@ -228,30 +228,34 @@ p strong { color: var(--text); font-weight: 600; }
 .card .links a:hover { border-bottom-color: var(--accent); }
 
 /* ---------- contact links ---------- */
-.contacts { list-style: none; margin-top: 14px; max-width: 360px; }
+.contacts {
+  list-style: none;
+  margin-top: 22px;
+  display: grid;
+  gap: 12px;
+}
 
 .contacts a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  padding: 9px 2px;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.85rem;
-  transition: color 0.2s;
+  gap: 14px;
+  padding: 22px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.2s;
 }
-
-.contacts li:last-child a { border-bottom: none; }
 
 /* Hover effect only on devices with a real pointer, so it doesn't stick after a tap */
 @media (hover: hover) {
-  .contacts a:hover { color: var(--accent); }
+  .contacts a:hover { border-color: var(--accent); }
 }
 
 .contacts .label { font-weight: 600; white-space: nowrap; }
 .contacts .value {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   text-align: right;
   min-width: 0;
   overflow-wrap: anywhere;
