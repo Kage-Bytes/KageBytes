@@ -1,28 +1,17 @@
 /* KageBytes — minimal theme. Edit the colour tokens below to restyle everything. */
 :root {
-  --bg: #fafaf9;
-  --surface: #ffffff;
-  --text: #16161a;
-  --muted: #6b6b76;
-  --border: #e4e4e7;
-  --accent: #4f46e5;
-  --font: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
   --bg: #0b0b0e;
   --surface: #131318;
   --text: #e8e8ec;
   --muted: #8a8a96;
   --border: #24242c;
   --accent: #8b8bff;
-  }
+  --font: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { color-scheme: light dark; }
+html { color-scheme: dark; }
 
 body {
   background: var(--bg);
