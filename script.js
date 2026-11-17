@@ -1,3 +1,4 @@
+
 // Single menu button: opens/closes the page list.
 (function () {
   var btn = document.getElementById("menu-btn");
