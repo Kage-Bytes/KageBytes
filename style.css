@@ -337,3 +337,6 @@ footer .wrap { padding-top: 14px; padding-bottom: 14px; color: var(--muted); fon
 
 #no-results { margin-top: 24px; }
 #no-results[hidden] { display: none; }
+
+/* Badge: align with the banner and give it some breathing room */
+.badge-wrap { margin-top: 24px; margin-bottom: 24px; }
