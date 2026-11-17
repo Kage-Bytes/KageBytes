@@ -113,6 +113,28 @@ header .wrap { position: relative; }
 #menu-list a:hover { background: var(--bg); color: var(--text); }
 #menu-list a.active { color: var(--accent); }
 
+
+.webring {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.webring img {
+  display: block;
+  width: 55px;
+  height: 9px;
+  image-rendering: pixelated;
+}
+
+.my-button img {
+  display: block;
+  width: var(--my-button-width, 90px);
+  height: auto;
+  border: 1px solid #8b8bff;
+  transition: transform 0.2s ease;
+}
+
 /* ---------- main ---------- */
 main { flex: 1; padding: 44px 0 36px; }
 
