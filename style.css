@@ -190,6 +190,7 @@ p strong { color: var(--text); font-weight: 600; }
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;      /* keeps the content centered in the card */
   text-align: center;
   gap: 2px;
   transition: border-color 0.2s, transform 0.2s;
@@ -229,8 +230,7 @@ p strong { color: var(--text); font-weight: 600; }
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  margin-top: auto;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 .card .links a {
   font-size: 0.75rem;
